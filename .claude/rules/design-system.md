@@ -8,7 +8,6 @@
 - `DESIGN.md`
 - `.claude/rules/input-contract.md`
 - `runs/latest/outputs/00_input_manifest.json`
-- `dashboard-sample.html`
 
 ## 기본 원칙
 

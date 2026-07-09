@@ -68,7 +68,7 @@ python3 scripts/profile_inputs.py runs/latest/input runs/latest/outputs/00_input
 * 모든 CSV에는 헤더 행이 있어야 합니다.
 * CSV가 아닌 파일은 무시하지 않고 경고 대상으로 기록합니다.
 * 파일 간 관계가 불분명하면 억지로 병합하지 않고, 더 보수적인 입력 모드로 낮춥니다.
-* 대시보드는 항상 `DESIGN.md`와 `dashboard-sample.html`을 기준으로 만듭니다.
+* 대시보드는 항상 `DESIGN.md`을 기준으로 만듭니다.
 * 실행 결과는 `runs/latest/outputs/` 아래에 저장됩니다.
 
 ## 입력 모드
@@ -94,7 +94,6 @@ python3 scripts/profile_inputs.py runs/latest/input runs/latest/outputs/00_input
 ├── README.md
 ├── CLAUDE.md
 ├── DESIGN.md
-├── dashboard-sample.html
 ├── scripts/
 │   ├── profile_csv.py
 │   └── profile_inputs.py
@@ -139,7 +138,6 @@ python3 scripts/profile_inputs.py runs/latest/input runs/latest/outputs/00_input
 
 * `CLAUDE.md`: 프로젝트 전체 운영 규칙
 * `DESIGN.md`: 대시보드 디자인 기준
-* `dashboard-sample.html`: 최종 HTML 대시보드의 기본 템플릿
 * `scripts/profile_csv.py`: 단일 CSV의 구조와 품질 브리프를 생성하는 스크립트
 * `scripts/profile_inputs.py`: 입력 폴더 전체를 스캔해 전체 매니페스트를 생성하는 스크립트
 * `.claude/agents/*.md`: 각 파이프라인 단계의 역할과 출력 형식

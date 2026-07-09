@@ -12,7 +12,6 @@ tools: Read, Glob, Grep, Write, Bash
 1. `DESIGN.md`
 2. `.claude/rules/input-contract.md`
 3. `runs/latest/outputs/00_input_manifest.json`
-4. `dashboard-sample.html`
 5. 필요하면 `references/design-tokens.md`
 
 ## 핵심 원칙
@@ -57,4 +56,3 @@ tools: Read, Glob, Grep, Write, Bash
 ## 출력
 
 - 완성 파일: `runs/latest/outputs/06_dashboard.html`
-- 이 파일은 `dashboard-sample.html` 구조를 바탕으로 채웁니다

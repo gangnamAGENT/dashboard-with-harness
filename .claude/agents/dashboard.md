@@ -23,7 +23,6 @@ skills:
 - `.claude/rules/input-contract.md`
 - `runs/latest/outputs/00_input_manifest.json`
 - `runs/latest/outputs/00_file_briefs/*.json`
-- `dashboard-sample.html`
 - `runs/latest/outputs/05_analysis_report.md`
 - `runs/latest/outputs/04_kpi_summary.md`
 - `runs/latest/outputs/03_problem_definition.md`
